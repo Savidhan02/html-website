@@ -1,0 +1,68 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #d7aa77;
+    color: #333;
+  }
+  
+  header {
+    background-color: #e94e1b;
+    color: rgb(217, 208, 208);
+    padding: 1rem;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: rgb(220, 208, 208);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: url('images/restaurant.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .menu {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .menu-item {
+    margin: 20px;
+    display: inline-block;
+    width: 200px;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }  
